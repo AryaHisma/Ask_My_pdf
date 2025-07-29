@@ -46,5 +46,46 @@ Karena masalah kecil itu cukup mengganggu, saya putuskan untuk membuat solusi pr
    ```
 
 2. Install depedensi:
+
    ```pip install -r requirements.txt```
+
+3. Jalankan aplikasi:
+
+   ```streamlit run main.py```
+
+## 📂 Struktur Folder
+
+```
+    askmypdf/
+    ├── data_pdf/        ← Contoh dokumen PDF
+    ├── uploaded/        ← Folder penyimpanan upload user
+    ├── index/           ← Menyimpan file index_document.json
+    ├── engine/          ← Logika indexing dan pencarian
+    ├── main.py          ← Aplikasi utama
+    ├── app_index.py     ← Halaman pencarian dari data contoh
+    ├── user_upload.py   ← Halaman upload & pencarian user
+```
+
+## 🤝 Ayo Gunakan dan Kembangkan
+
+Silakan gunakan aplikasi ini untuk kebutuhan pribadi atau organisasi Anda.
+Kalau ingin mengembangkan lebih jauh, silakan fork, tambahkan fitur, dan buat pull request! 🙌
+
+## 📷 Cuplikan Aplikasi
+
+Berikut tampilan aplikasi saat digunakan:
+
+![Preview App](gambar/preview.jpg)
+
+## 📬 Kontak
+
+Jika ingin berdiskusi atau bekerja sama, jangan ragu hubungi saya di [LinkedIn](https://www.linkedin.com/in/arya-hisma-maulana).
+
+
+
+
+
+
+
+
 
